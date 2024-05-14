@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button, Typography, Container } from '@mui/material';
-import ResponsiveAppBar from './components/ResponsiveAppBar';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <>
-      <ResponsiveAppBar />
+      <NavBar />
       <Container>
         <Typography variant="h2" component="h1" gutterBottom>
           Welcome to My Landing Page
