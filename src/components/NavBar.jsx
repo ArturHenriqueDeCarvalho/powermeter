@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-const pages = ["Sobre", "Preço", "Serviços", "Contate-nos"];
+const pages = ["Sobre", "Preço", "Serviços"];
 
 export default function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -24,22 +24,27 @@ export default function NavBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "#0f0f0f" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="#"
             sx={{
-              mr: 2,
               display: { xs: "none", md: "flex" },
+              mr: 2,
               fontFamily: "monospace",
               fontWeight: 700,
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            <Box component="img" src="./assets/logo1.png" alt="logo" />
+            <Box
+              component="img"
+              src="./assets/logo1.png"
+              alt="logo"
+              sx={{ height: 40 }}
+            />
           </Box>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -81,7 +86,7 @@ export default function NavBar() {
 
           <Box
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="#"
             sx={{
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
@@ -90,7 +95,14 @@ export default function NavBar() {
               color: "inherit",
               textDecoration: "none",
             }}
-          ></Box>
+          >
+            <Box
+              component="img"
+              src="./assets/logo1.png"
+              alt="logo"
+              sx={{ height: 40 }}
+            />
+          </Box>
 
           <Box
             sx={{
@@ -114,6 +126,23 @@ export default function NavBar() {
               </Button>
             ))}
           </Box>
+
+          <Button
+            href="#contato"
+            variant="contained"
+            sx={{
+              display: { xs: "none", md: "flex" },
+              backgroundColor: "#00ff00",
+              color: "black",
+              borderRadius: 50,
+              textTransform: "none",
+              "&:hover": {
+                backgroundColor: "#00cc00",
+              },
+            }}
+          >
+            Contate-nos
+          </Button>
         </Toolbar>
       </Container>
     </AppBar>
