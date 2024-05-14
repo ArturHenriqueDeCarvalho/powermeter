@@ -91,7 +91,7 @@ export default function NavBar() {
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
               fontFamily: "monospace",
-              fontWeight: 700,
+              fontWeight: 400,
               color: "inherit",
               textDecoration: "none",
             }}
@@ -135,6 +135,7 @@ export default function NavBar() {
               backgroundColor: "#00ff00",
               color: "black",
               borderRadius: 50,
+              fontWeight: 700,
               textTransform: "none",
               "&:hover": {
                 backgroundColor: "#00cc00",
