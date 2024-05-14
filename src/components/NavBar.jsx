@@ -50,7 +50,7 @@ export default function NavBar() {
               textDecoration: "none",
             }}
           >
-            <Box component="img" src="./assets/logo.png" />
+            <Box component="img" src="./assets/logo1.png" />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
