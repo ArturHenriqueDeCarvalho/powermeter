@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo"
 import SectionThree from "./components/SectionThree";
+import SectionFive from "./components/SectionFive";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <SectionFive />
     </div>
   );
 }

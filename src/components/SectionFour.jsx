@@ -17,7 +17,7 @@ export default function SectionFour() {
         borderTop: "1px solid #EAEDF1",
       }}
     >
-      <Box sx={{ margin: "0 auto", backgroundColor: "#0F1A20" }}>
+        <Box sx={{ margin: "0 auto", backgroundColor: "#0F1A20", pb: "78px" }}>
         <Accordion
           defaultExpanded
           sx={{ backgroundColor: "#0F1A20", color: "#D4DAE3" }}
@@ -27,11 +27,13 @@ export default function SectionFour() {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: 28 }}>
+            <Typography
+              sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: 28 }}
+            >
               O uso gratuito é limitado?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails >
+          <AccordionDetails>
             <Typography>
               Sim, você pode monitorar a energia solar gratuitamente. No
               entanto, o acesso gratuito é limitado à gestão de faturas. Para
@@ -46,7 +48,9 @@ export default function SectionFour() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: 28 }}>
+            <Typography
+              sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: 28 }}
+            >
               Posso digitar a chave manualmente?
             </Typography>
           </AccordionSummary>
@@ -63,7 +67,9 @@ export default function SectionFour() {
             aria-controls="panel3a-content"
             id="panel3a-header"
           >
-            <Typography sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: 28 }}>
+            <Typography
+              sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: 28 }}
+            >
               Tem limite de contratos para usar um plano?
             </Typography>
           </AccordionSummary>
@@ -80,7 +86,9 @@ export default function SectionFour() {
             aria-controls="panel4a-content"
             id="panel4a-header"
           >
-            <Typography sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: 28 }}>
+            <Typography
+              sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: 28 }}
+            >
               Como colocar a fatura automática?
             </Typography>
           </AccordionSummary>
