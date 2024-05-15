@@ -4,7 +4,7 @@ import { Container, Box, Typography, Button, Grid } from "@mui/material";
 export default function SectionTwo() {
   return (
     <Container sx={{ padding: "50px", width: "auto" }}>
-      <Grid container spacing={2} alignItems="center" sx={{ color: "#fff" }}>
+      <Grid container spacing={2} alignItems="center" sx={{ color: "#D4DAE3" }}>
         <Grid item xs={12} md={6}>
           <Typography
             variant="h4"
@@ -31,7 +31,7 @@ export default function SectionTwo() {
                 fontWeight: 700,
                 textTransform: "none",
                 "&:hover": {
-                  backgroundColor: "#00cc00",
+                  backgroundColor: "#009900",
                 },
               }}
             >
@@ -42,7 +42,7 @@ export default function SectionTwo() {
               variant="contained"
               sx={{
                 display: { xs: "none", md: "flex" },
-                border: "2px solid #00cc00",
+                border: "1px solid #00cc00",
                 backgroundColor: "#0f0f0f",
                 color: "#00cc00",
                 borderRadius: "50px",
@@ -50,7 +50,8 @@ export default function SectionTwo() {
                 textTransform: "none",
                 padding: "10px 20px",
                 "&:hover": {
-                  backgroundColor: "#0f0f0f",
+                  color: "#000",
+                  backgroundColor: "#00cc00",
                 },
               }}
             >

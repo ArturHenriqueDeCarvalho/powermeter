@@ -10,7 +10,7 @@ export default function SectionOne() {
             Domine o <span style={{ color: "#FF7F0B" }}>Sol</span>: Economize e
             acompanhe sua Energia Solar em tempo real
           </Typography>
-          <Typography variant="h6" component="p" sx={{ margin: "20px 0" }}>
+          <Typography variant="h6" component="p" sx={{ color: "#D4DAE3", margin: "20px 0" }}>
             PowerMeter é um aplicativo para acompanhamento de energia solar e
             economia em sua fatura de energia, fornecendo controle total sobre
             seus recursos energéticos.
@@ -59,7 +59,7 @@ export default function SectionOne() {
         container
         spacing={5}
         alignItems="center"
-        sx={{ backgroundColor: "#fff", color: "#000", paddingBottom: 8 }}
+        sx={{ backgroundColor: "#F4F6F8", color: "#000", paddingBottom: 8, borderRadius: 5 }}
       >
         <Box sx={{ textAlign: "center", marginTop: "50px" }}>
           <Typography variant="h3" component="h2" sx={{ fontWeight: "bold" }}>
