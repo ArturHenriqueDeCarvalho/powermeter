@@ -3,10 +3,10 @@ import { Container, Box, Typography, Button, Grid } from "@mui/material";
 
 export default function SectionOne() {
   return (
-    <Container sx={{ padding: "50px", width: "auto" }}>
+    <Container sx={{ pt: "156px" }}>
       <Grid container spacing={2} alignItems="center" sx={{ color: "#fff" }}>
         <Grid item xs={12} md={6}>
-          <Typography variant="h4" component="h1" sx={{ fontWeight: "bold" }}>
+          <Typography variant="h4" component="h1" sx={{ fontWeight: 700, fontSize: "40px" }}>
             Domine o <span style={{ color: "#FF7F0B" }}>Sol</span>: Economize e
             acompanhe sua Energia Solar em tempo real
           </Typography>
@@ -15,7 +15,7 @@ export default function SectionOne() {
             economia em sua fatura de energia, fornecendo controle total sobre
             seus recursos energéticos.
           </Typography>
-          <Box sx={{ display: "flex", gap: 2, marginTop: 3 }}>
+          <Box sx={{ display: "flex", gap: 2, marginTop: 3, mb: 16 }}>
             <Button
               variant="contained"
               sx={{
@@ -50,7 +50,7 @@ export default function SectionOne() {
             <img
               src="./assets/banner1.png"
               alt="Banner Two iPhone"
-              style={{ height: "400px" }}
+              style={{ height: "500px" }}
             />
           </Box>
         </Grid>
@@ -61,8 +61,8 @@ export default function SectionOne() {
         alignItems="center"
         sx={{ backgroundColor: "#F4F6F8", color: "#000", paddingBottom: 8, borderRadius: 5 }}
       >
-        <Box sx={{ textAlign: "center", marginTop: "50px" }}>
-          <Typography variant="h3" component="h2" sx={{ fontWeight: "bold" }}>
+        <Box sx={{ textAlign: "center", marginTop: "80px" }}>
+          <Typography variant="h3" component="h2" sx={{ fontWeight: 700, fontSize: 40 }}>
             Conheça nossos principais serviços
           </Typography>
           <Grid container spacing={4} sx={{ marginTop: "30px" }}>

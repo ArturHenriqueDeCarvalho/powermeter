@@ -3,13 +3,13 @@ import { Container, Box, Typography, Button, Grid } from "@mui/material";
 
 export default function SectionTwo() {
   return (
-    <Container sx={{ padding: "50px", width: "auto" }}>
+    <Container sx={{ pt: "156px" }}>
       <Grid container spacing={2} alignItems="center" sx={{ color: "#D4DAE3" }}>
         <Grid item xs={12} md={6}>
           <Typography
             variant="h4"
             component="h1"
-            sx={{ fontWeight: "bold", color: "#FF7F0B" }}
+            sx={{ fontWeight: 700, fontSize: "40px", color: "#FF7F0B" }}
           >
             Crie sua conta hoje para acesso gratuito às dicas exclusivas de
             economia de energia.
@@ -73,7 +73,7 @@ export default function SectionTwo() {
             <img
               src="./assets/banner2.png"
               alt="Banner Two iPhone"
-              style={{ height: "400px", position: "relative", zIndex: 1 }}
+              style={{ height: "500px", position: "relative", zIndex: 1 }}
             />
             <img
               src="./assets/flor_banner2.png"

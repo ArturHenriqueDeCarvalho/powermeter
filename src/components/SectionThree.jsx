@@ -4,7 +4,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 export default function SectionThree() {
   return (
-    <Container sx={{ padding: "50px", width: "auto" }}>
+    <Container sx={{ pt: "156px" }}>
       <Box sx={{ textAlign: "center", color: "#fff" }}>
         <Typography
           variant="h4"
@@ -255,11 +255,17 @@ export default function SectionThree() {
           </Box>
         </Grid>
       </Grid>
-      <Box sx={{ textAlign: "center", marginTop: "50px", color: "#fff" }}>
+      <Box
+        sx={{
+          textAlign: "center",
+          mt: "120px",
+          color: "#fff",
+        }}
+      >
         <Typography
           variant="h4"
           component="h1"
-          sx={{ color: "#FF7F0B", fontWeight: 900 }}
+          sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: "40px", paddingBottom: "78px" }}
         >
           Perguntas mais frequentes
         </Typography>
