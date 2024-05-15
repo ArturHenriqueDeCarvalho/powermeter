@@ -4,6 +4,7 @@ import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo"
 import SectionThree from "./components/SectionThree";
 import SectionFive from "./components/SectionFive";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SectionThree />
       <SectionFour />
       <SectionFive />
+      <Footer />
     </div>
   );
 }
