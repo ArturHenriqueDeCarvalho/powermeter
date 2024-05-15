@@ -9,7 +9,7 @@ export default function SectionTwo() {
           <Typography
             variant="h4"
             component="h1"
-            sx={{ fontWeight: "bold", color: "#FFA500" }}
+            sx={{ fontWeight: "bold", color: "#FF7F0B" }}
           >
             Crie sua conta hoje para acesso gratuito às dicas exclusivas de
             economia de energia.
