@@ -15,7 +15,14 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function Footer() {
   return (
-    <Box sx={{ backgroundColor: "#FF7F0B", padding: "20px 0", color: "#000" }}>
+    <Box
+      sx={{
+        backgroundColor: "#FF7F0B",
+        padding: "50px 0",
+        color: "#1E2125",
+        pt: "78px",
+      }}
+    >
       <Container maxWidth="lg" justifyContent="space-beetwen">
         <Box alignContent="center" justifyContent="center" alignItems="center">
           <Grid container>
@@ -86,35 +93,35 @@ export default function Footer() {
                 <IconButton
                   href="https://www.youtube.com"
                   target="_blank"
-                  sx={{ color: "#000" }}
+                  sx={{ color: "#1E2125" }}
                 >
                   <YouTubeIcon />
                 </IconButton>
                 <IconButton
                   href="https://www.facebook.com"
                   target="_blank"
-                  sx={{ color: "#000" }}
+                  sx={{ color: "#1E2125" }}
                 >
                   <FacebookIcon />
                 </IconButton>
                 <IconButton
                   href="https://www.twitter.com"
                   target="_blank"
-                  sx={{ color: "#000" }}
+                  sx={{ color: "#1E2125" }}
                 >
                   <TwitterIcon />
                 </IconButton>
                 <IconButton
                   href="https://www.instagram.com"
                   target="_blank"
-                  sx={{ color: "#000" }}
+                  sx={{ color: "#1E2125" }}
                 >
                   <InstagramIcon />
                 </IconButton>
                 <IconButton
                   href="https://www.linkedin.com"
                   target="_blank"
-                  sx={{ color: "#000" }}
+                  sx={{ color: "#1E2125" }}
                 >
                   <LinkedInIcon />
                 </IconButton>
