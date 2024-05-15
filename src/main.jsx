@@ -1,20 +1,23 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App';
-import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 
 const theme = createTheme({
   palette: {
-    background: {
-      default: '#0f0f0f',
-    }
-  },
-    typography: {
-      fontFamily: 'Montserrat, sans-serif',
+    text: {
+      primary: "#FF7F0B",
     },
+    background: {
+      default: "#0F1A20",
+    },
+  },
+  typography: {
+    fontFamily: "Montserrat, sans-serif",
+  },
 });
 
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
