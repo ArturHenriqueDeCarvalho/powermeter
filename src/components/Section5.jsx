@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export default function SectionFour() {
+export default function Section5() {
   return (
     <Container
       sx={{

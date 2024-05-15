@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Box, Typography, Button, Grid } from "@mui/material";
 
-export default function SectionTwo() {
+export default function Section3() {
   return (
     <Container sx={{ pt: "156px" }}>
       <Grid container spacing={2} alignItems="center" sx={{ color: "#D4DAE3" }}>

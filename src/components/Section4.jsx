@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Box, Typography, Button, Grid } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
-export default function SectionThree() {
+export default function Section4() {
   return (
     <Container sx={{ pt: "156px" }}>
       <Box sx={{ textAlign: "center", color: "#fff" }}>
