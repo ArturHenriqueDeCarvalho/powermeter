@@ -4,15 +4,10 @@ import { Container, Box, Typography, Button, Grid } from "@mui/material";
 export default function SectionOne() {
   return (
     <Container sx={{ padding: "50px", width: "auto" }}>
-      <Grid
-        container
-        spacing={2}
-        alignItems="center"
-        sx={{ color: "#fff" }}
-      >
+      <Grid container spacing={2} alignItems="center" sx={{ color: "#fff" }}>
         <Grid item xs={12} md={6}>
           <Typography variant="h4" component="h1" sx={{ fontWeight: "bold" }}>
-            Domine o <span style={{ color: "#FFA500" }}>Sol</span>: Economize e
+            Domine o <span style={{ color: "#FF7F0B" }}>Sol</span>: Economize e
             acompanhe sua Energia Solar em tempo real
           </Typography>
           <Typography variant="h6" component="p" sx={{ margin: "20px 0" }}>
@@ -21,10 +16,26 @@ export default function SectionOne() {
             seus recursos energéticos.
           </Typography>
           <Box sx={{ display: "flex", gap: 2, marginTop: 3 }}>
-            <Button variant="contained" sx={{ backgroundColor: "#0f0f0f" }}>
+            <Button
+              variant="contained"
+              sx={{
+                backgroundColor: "#0f0f0f",
+                "&:hover": {
+                  backgroundColor: "#FF7F0B",
+                },
+              }}
+            >
               <img src="./assets/buttonAppStore.png" alt="App Store" />
             </Button>
-            <Button variant="contained" sx={{ backgroundColor: "#0f0f0f" }}>
+            <Button
+              variant="contained"
+              sx={{
+                backgroundColor: "#0f0f0f",
+                "&:hover": {
+                  backgroundColor: "#FF7F0B",
+                },
+              }}
+            >
               <img src="./assets/buttonGooglePlay.png" alt="Google Play" />
             </Button>
           </Box>
