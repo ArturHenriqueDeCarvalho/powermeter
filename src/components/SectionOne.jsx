@@ -3,12 +3,12 @@ import { Container, Box, Typography, Button, Grid } from "@mui/material";
 
 export default function SectionOne() {
   return (
-    <Container sx={{ padding: "50px" }}>
+    <Container sx={{ padding: "50px", width: "auto" }}>
       <Grid
         container
         spacing={2}
         alignItems="center"
-        sx={{ backgroundColor: "#0f0f0f", color: "#fff" }}
+        sx={{ color: "#fff" }}
       >
         <Grid item xs={12} md={6}>
           <Typography variant="h4" component="h1" sx={{ fontWeight: "bold" }}>
@@ -33,9 +33,9 @@ export default function SectionOne() {
           item
           xs={12}
           md={6}
-          sx={{ display: "flex", justifyContent: "center" }}
+          sx={{ display: "flex", justifyContent: "right" }}
         >
-          <Box sx={{ display: "flex", gap: 2, paddingTop: 4 }}>
+          <Box sx={{ display: "flex", gap: 4 }}>
             <img
               src="./assets/banner1.png"
               alt="Banner Two iPhone"
@@ -46,7 +46,7 @@ export default function SectionOne() {
       </Grid>
       <Grid
         container
-        spacing={2}
+        spacing={5}
         alignItems="center"
         sx={{ backgroundColor: "#fff", color: "#000" }}
       >
