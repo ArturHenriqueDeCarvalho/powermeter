@@ -5,13 +5,13 @@ import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 
 const theme = createTheme({
   palette: {
-    primary: {
-      main: '#1976d2',
-    },
-    secondary: {
-      main: '#dc004e',
-    },
+    background: {
+      default: '#0f0f0f',
+    }
   },
+    typography: {
+      fontFamily: 'Montserrat, sans-serif',
+    },
 });
 
 const container = document.getElementById('root');
