@@ -48,7 +48,7 @@ export default function SectionOne() {
         container
         spacing={5}
         alignItems="center"
-        sx={{ backgroundColor: "#fff", color: "#000" }}
+        sx={{ backgroundColor: "#fff", color: "#000", paddingBottom: 8 }}
       >
         <Box sx={{ textAlign: "center", marginTop: "50px" }}>
           <Typography variant="h3" component="h2" sx={{ fontWeight: "bold" }}>
