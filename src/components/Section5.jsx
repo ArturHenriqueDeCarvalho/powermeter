@@ -15,9 +15,11 @@ export default function Section5() {
       sx={{
         pt: "78px",
         borderTop: "1px solid #EAEDF1",
+        caretColor: "transparent",
+        userSelect: "none",
       }}
     >
-        <Box sx={{ margin: "0 auto", backgroundColor: "#0F1A20", pb: "78px" }}>
+      <Box sx={{ margin: "0 auto", backgroundColor: "#0F1A20", pb: "78px" }}>
         <Accordion
           defaultExpanded
           sx={{ backgroundColor: "#0F1A20", color: "#D4DAE3" }}
@@ -34,7 +36,7 @@ export default function Section5() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
+            <Typography sx={{}}>
               Sim, você pode monitorar a energia solar gratuitamente. No
               entanto, o acesso gratuito é limitado à gestão de faturas. Para
               obter acesso a mais recursos, é necessário assinar um plano, e
@@ -42,7 +44,14 @@ export default function Section5() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion sx={{ backgroundColor: "#0F1A20", color: "#D4DAE3" }}>
+        <Accordion
+          sx={{
+            backgroundColor: "#0F1A20",
+            color: "#D4DAE3",
+            fontSize: "16px",
+            fontWeight: 400,
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{ color: "#fff" }} />}
             aria-controls="panel2a-content"
@@ -61,7 +70,14 @@ export default function Section5() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion sx={{ backgroundColor: "#0F1A20", color: "#D4DAE3" }}>
+        <Accordion
+          sx={{
+            backgroundColor: "#0F1A20",
+            color: "#D4DAE3",
+            fontSize: "16px",
+            fontWeight: 400,
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{ color: "#fff" }} />}
             aria-controls="panel3a-content"
@@ -80,7 +96,14 @@ export default function Section5() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion sx={{ backgroundColor: "#0F1A20", color: "#D4DAE3" }}>
+        <Accordion
+          sx={{
+            backgroundColor: "#0F1A20",
+            color: "#D4DAE3",
+            fontSize: "16px",
+            fontWeight: 400,
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{ color: "#fff" }} />}
             aria-controls="panel4a-content"

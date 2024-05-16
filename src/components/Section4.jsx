@@ -4,18 +4,31 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 export default function Section4() {
   return (
-    <Container sx={{ pt: "156px" }}>
+    <Container
+      sx={{ pt: "156px", caretColor: "transparent", userSelect: "none" }}
+    >
       <Box sx={{ textAlign: "center", color: "#fff" }}>
         <Typography
           variant="h4"
           component="h1"
-          sx={{ color: "#FF7F0B", marginBottom: "20px", fontWeight: 700 }}
+          sx={{
+            color: "#FF7F0B",
+            marginBottom: "20px",
+            fontWeight: 700,
+          }}
         >
           Conheça nossos planos
         </Typography>
         <Typography
           variant="body1"
-          sx={{ color: "#D4DAE3", marginBottom: "40px" }}
+          sx={{
+            color: "#D4DAE3",
+            marginBottom: "40px",
+            fontWeight: 400,
+            fontSize: "18px",
+            caretColor: "transparent",
+            userSelect: "none",
+          }}
         >
           Veja abaixo nossos planos focados em satisfazer exatamente suas
           necessidades.
@@ -32,6 +45,8 @@ export default function Section4() {
               padding: "40px",
               textAlign: "center",
               boxShadow: 3,
+              caretColor: "transparent",
+              userSelect: "none",
             }}
           >
             <Typography
@@ -48,7 +63,10 @@ export default function Section4() {
             >
               R$29
             </Typography>
-            <Typography variant="body2" sx={{ mb: 2, color: "#768293" }}>
+            <Typography
+              variant="body2"
+              sx={{ mb: 2, color: "#768293", fontWeight: 500 }}
+            >
               Grátis primeira análise
             </Typography>
             <Button
@@ -56,15 +74,15 @@ export default function Section4() {
               sx={{
                 mb: 5,
                 borderRadius: "25px",
-                border: "1px solid #00cc00",
+                border: "1px solid #6EB729",
                 color: "#000",
                 fontWeight: 700,
                 width: "80%",
                 height: "3rem",
-                backgroundColor: "#F4F6F8",
+                backgroundColor: "transparent",
                 textTransform: "none",
                 "&:hover": {
-                  backgroundColor: "#00cc00",
+                  backgroundColor: "#6EB729",
                 },
               }}
             >
@@ -87,7 +105,7 @@ export default function Section4() {
               >
                 <CheckCircleIcon
                   sx={{
-                    color: "#00cc00",
+                    color: "#6EB729",
                     borderRadius: "50%",
                     marginRight: "8px",
                   }}
@@ -100,7 +118,7 @@ export default function Section4() {
               >
                 <CheckCircleIcon
                   sx={{
-                    color: "#00cc00",
+                    color: "#6EB729",
                     borderRadius: "50%",
                     marginRight: "8px",
                   }}
@@ -113,7 +131,7 @@ export default function Section4() {
               >
                 <CheckCircleIcon
                   sx={{
-                    color: "#00cc00",
+                    color: "#6EB729",
                     borderRadius: "50%",
                     marginRight: "8px",
                   }}
@@ -126,7 +144,7 @@ export default function Section4() {
               >
                 <CheckCircleIcon
                   sx={{
-                    color: "#00cc00",
+                    color: "#6EB729",
                     borderRadius: "50%",
                     marginRight: "8px",
                   }}
@@ -171,7 +189,7 @@ export default function Section4() {
               sx={{
                 mb: 5,
                 borderRadius: "25px",
-                backgroundColor: "#00cc00",
+                backgroundColor: "#6EB729",
                 color: "#000",
                 fontWeight: 700,
                 width: "80%",
@@ -202,7 +220,7 @@ export default function Section4() {
                 <CheckCircleIcon
                   sx={{
                     color: "#000",
-                    backgroundColor: "#00cc00",
+                    backgroundColor: "#6EB729",
                     borderRadius: "50%",
                     marginRight: "8px",
                   }}
@@ -216,7 +234,7 @@ export default function Section4() {
                 <CheckCircleIcon
                   sx={{
                     color: "#000",
-                    backgroundColor: "#00cc00",
+                    backgroundColor: "#6EB729",
                     borderRadius: "50%",
                     marginRight: "8px",
                   }}
@@ -230,7 +248,7 @@ export default function Section4() {
                 <CheckCircleIcon
                   sx={{
                     color: "#000",
-                    backgroundColor: "#00cc00",
+                    backgroundColor: "#6EB729",
                     borderRadius: "50%",
                     marginRight: "8px",
                   }}
@@ -244,7 +262,7 @@ export default function Section4() {
                 <CheckCircleIcon
                   sx={{
                     color: "#000",
-                    backgroundColor: "#00cc00",
+                    backgroundColor: "#6EB729",
                     borderRadius: "50%",
                     marginRight: "8px",
                   }}
@@ -265,7 +283,12 @@ export default function Section4() {
         <Typography
           variant="h4"
           component="h1"
-          sx={{ color: "#FF7F0B", fontWeight: 700, fontSize: "40px", paddingBottom: "78px" }}
+          sx={{
+            color: "#FF7F0B",
+            fontWeight: 700,
+            fontSize: "40px",
+            paddingBottom: "78px",
+          }}
         >
           Perguntas mais frequentes
         </Typography>

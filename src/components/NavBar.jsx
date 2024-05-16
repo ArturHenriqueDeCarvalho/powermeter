@@ -24,8 +24,8 @@ export default function NavBar() {
   };
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: "#0F1A20", border: "none" }}>
-      <Container maxWidth="xl">
+    <AppBar elevation={0} sx={{ backgroundColor: "#0F1A20" }}>
+      <Container maxWidth="lg">
         <Toolbar disableGutters>
           <Box
             component="a"
@@ -33,7 +33,8 @@ export default function NavBar() {
             sx={{
               display: { xs: "none", md: "flex" },
               mr: 2,
-              fontFamily: "monospace",
+              fontFamily: "Montserrat",
+              caretColor: "transparent",
               fontWeight: 700,
               color: "inherit",
               textDecoration: "none",
@@ -43,7 +44,13 @@ export default function NavBar() {
               component="img"
               src="./assets/logo1.png"
               alt="logo"
-              sx={{ height: 40 }}
+              sx={{
+                height: 40,
+                userSelect: "default",
+                cursor: "default",
+                caretColor: "transparent",
+                userSelect: "none",
+              }}
             />
           </Box>
 
@@ -132,7 +139,7 @@ export default function NavBar() {
             variant="contained"
             sx={{
               display: { xs: "none", md: "flex" },
-              backgroundColor: "#00ff00",
+              backgroundColor: "#6EB729",
               color: "black",
               borderRadius: 50,
               fontWeight: 700,

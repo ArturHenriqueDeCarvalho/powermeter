@@ -31,7 +31,12 @@ export default function Section2() {
             <Typography
               variant="h3"
               component="h2"
-              sx={{ fontWeight: 700, fontSize: 40 }}
+              sx={{
+                fontWeight: 700,
+                fontSize: 40,
+                caretColor: "transparent",
+                userSelect: "none",
+              }}
             >
               Conheça nossos principais serviços
             </Typography>
@@ -44,15 +49,35 @@ export default function Section2() {
                       justifyContent: "center",
                       gap: 2,
                       paddingBottom: 2,
+                      caretColor: "transparent",
+                      userSelect: "none",
                     }}
                   >
                     <img src="./assets/solar_power.png" alt="Icon solar" />
                   </Box>
-                  Gestão de Solar
+                  <Box
+                    sx={{
+                      caretColor: "transparent",
+                      userSelect: "none",
+                      fontWeight: 600,
+                      fontSize: "16px",
+                    }}
+                  >
+                    Gestão de Solar
+                  </Box>
                 </Typography>
                 <Typography variant="body1" component="p">
-                  Monitore em tempo real a produção de energia e otimize seu
-                  projeto.
+                  <Box
+                    sx={{
+                      caretColor: "transparent",
+                      userSelect: "none",
+                      fontWeight: 400,
+                      fontSize: "14px",
+                    }}
+                  >
+                    Monitore em tempo real a produção de energia e otimize seu
+                    projeto.
+                  </Box>
                 </Typography>
               </Grid>
               <Grid item xs={12} md={6}>
@@ -63,6 +88,8 @@ export default function Section2() {
                       justifyContent: "center",
                       gap: 2,
                       paddingBottom: 2,
+                      caretColor: "transparent",
+                      userSelect: "none",
                     }}
                   >
                     <img
@@ -70,11 +97,29 @@ export default function Section2() {
                       alt="QR Code Scanner"
                     />
                   </Box>
-                  Gestão de Faturas
+                  <Box
+                    sx={{
+                      caretColor: "transparent",
+                      userSelect: "none",
+                      fontWeight: 600,
+                      fontSize: "16px",
+                    }}
+                  >
+                    Gestão de Faturas
+                  </Box>
                 </Typography>
                 <Typography variant="body1" component="p">
-                  Avalie seu consumo e descubra como reduzir sua conta de
-                  energia eficientemente.
+                  <Box
+                    sx={{
+                      caretColor: "transparent",
+                      userSelect: "none",
+                      fontWeight: 400,
+                      fontSize: "14px",
+                    }}
+                  >
+                    Avalie seu consumo e descubra como reduzir sua conta de
+                    energia eficientemente.
+                  </Box>
                 </Typography>
               </Grid>
             </Grid>

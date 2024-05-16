@@ -9,23 +9,47 @@ export default function Section3() {
           <Typography
             variant="h4"
             component="h1"
-            sx={{ fontWeight: 700, fontSize: "40px", color: "#FF7F0B" }}
+            sx={{
+              fontWeight: 700,
+              fontSize: "40px",
+              color: "#FF7F0B",
+              caretColor: "transparent",
+              userSelect: "none",
+            }}
           >
             Crie sua conta hoje para acesso gratuito às dicas exclusivas de
             economia de energia.
           </Typography>
-          <Typography variant="h6" component="p" sx={{ margin: "20px 0" }}>
+          <Typography
+            variant="h6"
+            component="p"
+            sx={{
+              margin: "20px 0",
+              caretColor: "transparent",
+              userSelect: "none",
+              fontSize: "16px",
+              fontWeight: 400
+            }}
+          >
             Baixe o aplicativo agora e descubra como reduzir sua conta de luz!
             No primeiro acesso, aproveite gratuitamente nossas recomendações
             personalizadas. Para continuar recebendo nossas dicas exclusivas,
             experimente um de nossos planos pensados especialmente para você.
           </Typography>
-          <Box sx={{ display: "flex", gap: 2, marginTop: 3 }}>
+          <Box
+            sx={{
+              display: "flex",
+              gap: 2,
+              marginTop: 3,
+              caretColor: "transparent",
+              userSelect: "none",
+            }}
+          >
             <Button
               variant="contained"
               sx={{
                 display: { xs: "none", md: "flex" },
-                backgroundColor: "#00ff00",
+                backgroundColor: "#6EB729",
                 color: "black",
                 borderRadius: 50,
                 fontWeight: 700,
@@ -42,9 +66,9 @@ export default function Section3() {
               variant="contained"
               sx={{
                 display: { xs: "none", md: "flex" },
-                border: "1px solid #00cc00",
-                backgroundColor: "#0f0f0f",
-                color: "#00cc00",
+                border: "1px solid #6EB729",
+                backgroundColor: "transparent",
+                color: "#6EB729",
                 borderRadius: "50px",
                 fontWeight: 700,
                 textTransform: "none",
@@ -73,7 +97,13 @@ export default function Section3() {
             <img
               src="./assets/banner2.png"
               alt="Banner Two iPhone"
-              style={{ height: "500px", position: "relative", zIndex: 1 }}
+              style={{
+                height: "500px",
+                position: "relative",
+                zIndex: 1,
+                caretColor: "transparent",
+                userSelect: "none",
+              }}
             />
             <img
               src="./assets/flor_banner2.png"
