@@ -135,7 +135,7 @@ export default function NavBar() {
           </Box>
 
           <Button
-            href="#contat"
+            href="#contato"
             variant="contained"
             sx={{
               display: { xs: "none", md: "flex" },
